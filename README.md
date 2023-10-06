@@ -10,7 +10,7 @@ There could be weird behaviour if .cfg tries to track itself. Avoid recursive is
 Add a --bare flat if you wish you use a bare repo
 
  
-3.   alias config='/usr/bin/git --git-dir=<path to .cfg’s Git directory> --work-tree=$HOME'
+3.   alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 Set up an alias to send Git commands to .cfg, and also set $HOME as the work tree, while storing the Git state at .cfg
 
