@@ -1,5 +1,6 @@
-# dotfiles
+# Dotfiles
 
+## Installing
 1.   echo ".cfg" >> .gitignore
 
 There could be weird behaviour if .cfg tries to track itself. Avoid recursive issues by adding .cfg to your global Git ignore.
@@ -25,5 +26,3 @@ Set a local configuration in .cfg to ignore untracked files.
 
  
 5.   config checkout
-
-Checkout the actual content from your .cfg repository to $HOME. Git pulls the tracked files out of the compressed database in the Git directory and places them in the work tree.
